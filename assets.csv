@@ -1,0 +1,14 @@
+asset_tag	model	serial	assignee	location	status	assigned_date	return_date	notes
+LAP-0001	Dell Latitude 5540	SN-A1B2C3	Sarah Chen	Rydalmere	active	15/01/2024		Primary work laptop
+LAP-0002	MacBook Pro 14	SN-D4E5F6	James Okafor	Blacktown	active	20/02/2024		Dev machine
+LAP-0003	Dell Latitude 5540	SN-G7H8I9	Emily Brown	Rydalmere	offboarded	1/09/2023	1/03/2024	Returned on time
+LAP-0004	HP EliteBook 840	SN-J1K2L3	Tom Wilson	Blacktown	active	10/06/2023		
+LAP-0005	MacBook Air M2	SN-M4N5O6	Priya Patel	Rydalmere	active	22/08/2023		
+LAP-0006	Dell Latitude 5540	SN-P7Q8R9	Chris Lee	Rydalmere	active	30/11/2023		Pending offboarding
+MON-0001	Dell 27 4K	SN-S1T2U3	Sarah Chen	Rydalmere	active	15/01/2024		Paired with LAP-0001
+MON-0002	LG UltraWide	SN-V4W5X6	James Okafor	Blacktown	active	20/02/2024		
+KEY-0001	Logitech MX Keys	SN-Y7Z8A9	Tom Wilson	Blacktown	active	10/06/2023		
+LAP-0007	HP EliteBook 840	SN-B1C2D3		Rydalmere	unassigned			In storage
+LAP-0008	Dell Latitude 5540	SN-E4F5G6	Alex Nguyen	Blacktown	active	15/03/2023		Overdue for audit
+LAP-0009	MacBook Pro 14	SN-H7I8J9	Maria Santos	Rydalmere	active	1/04/2023		
+MON-0003	Dell 24 FHD	SN-K1L2M3		Blacktown	unassigned			Spare monitor
