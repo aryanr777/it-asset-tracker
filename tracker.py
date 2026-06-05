@@ -55,7 +55,7 @@ class AssetTracker:
             raise FileNotFoundError(
                 f"Cannot find '{self.csv_path}'. Run from the project root."
             )
-        with open(self.csv_path, newline="", encoding="utf-8") as f:
+        with open(self.csv_path, newline="", encoding="utf-8-sig") as f:
             reader = csv.DictReader(f)
             self.assets = []
             for row in reader:
@@ -85,7 +85,7 @@ class AssetTracker:
 
     def add_asset(self, asset_tag, model, serial, assignee, location, notes=""):
         today = date.today().strftime("%Y-%m-%d")
-        with open(self.csv_path, "a", newline="", encoding="utf-8") as f:
+        with open(self.csv_path, "a", newline="", encoding="utf-8-sig") as f:
             csv.writer(f).writerow([
                 asset_tag, model, serial, assignee,
                 location, "active", today, "", notes
